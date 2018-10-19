@@ -41,6 +41,10 @@ header span {
   background-size: cover;
 }
 
+.square {
+  width: 960px;
+}
+
 .floater {
   display: block;
   width: 20rem;
