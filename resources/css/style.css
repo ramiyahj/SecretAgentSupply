@@ -8,6 +8,7 @@ html {
 
 .body {
   max-width: 960px;
+  overflow: visible;
 }
 /* Header section */
 
@@ -34,6 +35,7 @@ header span {
 .top {
   display: flex;
   height: 25rem;
+  width: 100%;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
