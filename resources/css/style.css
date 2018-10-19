@@ -42,9 +42,10 @@ header span {
 }
 
 .square {
+  display: flex;
   width: 960px;
   margin: 0 auto;
-  float: left;
+  align-items: center;
 }
 
 .floater {
