@@ -2,14 +2,13 @@ html {
   font-size: 18px;
   font-family: Helvetica;
   color: white;
-  width: 100%;
 }
 
 header {
   width: 100%;
 }
 
-.header {
+.header .logo {
   display: flex;
   align-items: center;
   width: 960px;
