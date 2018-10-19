@@ -1,23 +1,20 @@
-/* Universal Styles */
-
 html {
   font-size: 18px;
   font-family: Helvetica;
   color: white;
+  width: 100%;
 }
-
-.body {
-  max-width: 960px;
-  overflow: visible;
-}
-/* Header section */
 
 header {
-  display: flex;
-  background-color: black;
-  align-items: center;
   width: 100%;
-  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  width: 960px;
+  background-color: black;
+
 }
 
 .logo img {
@@ -26,121 +23,8 @@ header {
   padding-right: 1rem;
 }
 
-header span {
+.logo span {
   font-size: 1rem;
   padding-top: 0.66rem;
   padding-bottom: 0.66rem;
-}
-
-.top {
-  display: flex;
-  height: 25rem;
-  width: 100%;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.square {
-  display: flex;
-  width: 960px;
-  margin: 0 auto;
-  align-items: center;
-}
-
-.floater {
-  display: block;
-  width: 20rem;
-  height: 0 auto;
-  background-color: black;
-  padding-top: 9rem;
-}
-
-.floater p {
-  font-size: 1rem;
-  font-weight: bold;
-  padding-top: 2rem;
-  padding-left: 3rem;
-}
-
-.floater h3 {
-  font-size: 2rem;
-  font-weight: bold;
-  padding-top: 0.25rem;
-  padding-left: 3rem;
-}
-
-/* Navigation */
-
-nav {
-  display: flex;
-  background-color: firebrick;
-  width: 100%;
-  height: auto;
-}
-
-nav span {
-  display: inline-block;
-  flex-direction: row;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
-/* Products */
-
-.products {
-  display: flex;
-  width: 100%;
-  margin: 0 auto;
-  padding-top: 3rem;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.products .item {
-  display: block;
-  width: 30%;
-  border: 4px solid black;
-  text-align: center;
-}
-
-.item img {
-  height: 9rem;
-  width: 100%;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.description {
-  background-color: black;
-}
-
-.information {
-  display: flex;
-  justify-content: space-around;
-  padding-top: 3rem;
-  padding-bottom: 4rem;
-}
-
-.info {
-  display: flex;
-  text-align: left;
-  flex-direction: row;
-  color: black;
-}
-
-#location {
-  width: 35%;
-  padding-left: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  background-color: black;
-}
-
-#hours {
-  width: 35%;
-  padding-left: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  background-color: black;
 }
