@@ -36,7 +36,7 @@ header span {
   height: 25rem;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .floater {
@@ -104,5 +104,35 @@ nav span {
 }
 
 .description {
+  background-color: black;
+}
+
+.information {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+.info {
+  display: flex;
+  text-align: left;
+  flex-direction: row;
+  color: black;
+}
+
+#location {
+  width: 35%;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: black;
+}
+
+#hours {
+  width: 35%;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   background-color: black;
 }
